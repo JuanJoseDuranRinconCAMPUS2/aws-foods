@@ -6,6 +6,7 @@ import AboutUsFood from './components/AboutUs/AboutUsFood'
 import MenuFood from './components/Menu/MenuFood'
 import ServicesFood from './components/Services/ServicesFood'
 import LearnMFood from './components/Learn/LearnMFood'
+import FooterFood from './components/Footer/FooterFood'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,6 +16,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <MenuFood/>
     <ServicesFood/>
     <LearnMFood/>
-    
+    <FooterFood/>
   </React.StrictMode>,
 )
