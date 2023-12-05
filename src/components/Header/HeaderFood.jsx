@@ -58,7 +58,18 @@ function HeaderFood() {
             Foods the Most precious thing
             </Typography>
             <Button variant="contained" color="orange">
-                Today's 
+                <Typography 
+                        sx={{
+                            justifyContent: 'left',
+                            fontFamily: 'monospace',
+                            fontWeight: 600,
+                            fontSize: { xs: '1.1rem', sm: '1.1rem', md: '1.1rem' },
+                            color: '#fff',
+                            textDecoration: 'none',
+                        }}
+                    >
+                    Today's 
+                </Typography>
             </Button>
             </Grid>
             <Grid item xs={12} sm={4} md={6} key='imageH'>
@@ -69,7 +80,8 @@ function HeaderFood() {
                     width: '100%',
                     height: 'auto', 
                     maxWidth: '400px', 
-                    minWidth: '200px',
+                    minWidth: '100px',
+                    marginX: 'auto',
                 }}
                 image="https://mibucketcl2023.s3.amazonaws.com/images/home.png"
             />
