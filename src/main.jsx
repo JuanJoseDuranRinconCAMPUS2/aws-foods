@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import NavbarFood from './components/Navbar/NavbarFood'
+import NavbarFood from './components/navbar/NavbarFood'
 import HeaderFood from './components/Header/HeaderFood'
 import AboutUsFood from './components/AboutUs/AboutUsFood'
 import MenuFood from './components/Menu/MenuFood'
